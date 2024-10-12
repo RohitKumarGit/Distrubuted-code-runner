@@ -1,0 +1,7 @@
+{
+  "db": {
+    "uri": "mongodb://root:example@localhost:27017",
+    "database": "code_scheduler"
+  },
+  "worker_name": "worker1"
+}

@@ -1,0 +1,17 @@
+{
+    "db": {
+        "uri": "mongodb://root:example@localhost:27017",
+        "database": "code_scheduler"
+    },
+    "workers": [
+        {
+            "ip": "localhost",
+            "port": 8082
+        },
+         {
+            "ip": "localhost",
+            "port": 8085
+        }
+    ],
+    "check_interval": "10s"
+}
